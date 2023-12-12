@@ -44,8 +44,9 @@ function Navbar({ isLoggedIn, onLogout }) {
                     open={open}
                     onClose={handleClose}
                 >
-                    <MenuItem onClick={handleClose} component={Link} to="/data">Data</MenuItem>
                     <MenuItem onClick={handleClose} component={Link} to="/">Home</MenuItem>
+                    <MenuItem onClick={handleClose} component={Link} to="/data">Data</MenuItem>
+                    <MenuItem onClick={handleClose} component={Link} to="/bootstrap">Bootstrap</MenuItem>
                 </Menu>
                 <Typography variant="h6" style={{ flexGrow: 1 }}>
                     My App

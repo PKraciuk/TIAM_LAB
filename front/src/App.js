@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Login from './Login';
 import Register from './Register';
 import Data from './Data';
+import Bootstrap from "./Bootstrap";
 
 function App() {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -28,6 +29,7 @@ function App() {
                     <Route path="/login" element={<Login onLoginSuccess={() => handleLogin(true)} />} />
                     <Route path="/register" element={<Register />} />
                     <Route path="/data" element={<Data />} />
+                    <Route path="/bootstrap" element={<Bootstrap />} />
                     {/* Add other routes here */}
                 </Routes>
             </div>

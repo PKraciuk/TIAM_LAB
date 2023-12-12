@@ -1,0 +1,48 @@
+/* Custom CSS for MyBootstrapComponent */
+
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.lead {
+    color: #6c757d; /* Bootstrap secondary color */
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Adding a subtle shadow to the cards */
+    transition: 0.3s; /* Smooth transition for hover effect */
+    margin-bottom: 20px; /* Space below each card */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4); /* More pronounced shadow on hover */
+}
+
+.card-img-top {
+    width: 100%; /* Ensure image covers the card top area */
+    height: 150px; /* Fixed height for images */
+    object-fit: cover; /* Ensures images cover the area nicely */
+}
+
+.card-title {
+    color: #343a40; /* Dark shade for the title */
+}
+
+.card-text {
+    color: #495057; /* Slightly lighter shade for the text */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary button color */
+    border-color: #007bff; /* Border color to match the background */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    border-color: #0056b3; /* Border color to match */
+}
