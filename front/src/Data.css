@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .ui-dialog {
+        width: 95% !important; /* Make dialog width responsive */
+    }
+}
+
+
+.data-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.update-button {
+    cursor: pointer;
+}
+
+/* jQuery UI Dialog styles can be customized as needed */
+.ui-dialog-titlebar {
+    background-color: #343a40;
+    color: white;
+}
+
+.ui-dialog-content {
+    font-size: 16px;
+}
+
+.ui-dialog-titlebar-close {
+    display: block;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    transform: translateY(-90%);
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+/* Style the dialog title bar */
+.ui-dialog .ui-dialog-titlebar {
+    padding: 0.4em 1em;
+    background: #f7f7f7; /* Example background color */
+    border: none; /* Example border */
+    color: #333; /* Example text color */
+}
+
+/* Additional styles for the dialog itself */
+.ui-dialog {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Example shadow */
+    margin: 20px; /* This creates margin from the sides */
+}
+
+.custom-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Example overlay background */
+}
+
+/* If the dialog content is not visible, ensure the following */
+#data-dialog {
+    color: #000; /* Ensure text color is visible */
+    background: #fff; /* Set a background color if it's transparent */
+}
+

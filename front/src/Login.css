@@ -1,0 +1,61 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.form-container {
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Same width as the register form */
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-form input {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.login-form button {
+    padding: 15px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+    background-color: #003d82;
+}
+
+.error-message {
+    color: red;
+    font-size: 16px;
+    margin-top: 12px;
+}
+.nonce-fetch-button[disabled] {
+    background-color: #ccc; /* Change the background color to a grayish tone */
+    color: #888; /* Change the text color to a lighter gray */
+    cursor: not-allowed; /* Change the cursor to 'not-allowed' */
+}
+
+/* Style for the "Login" button when disabled */
+.login-button[disabled] {
+    background-color: #ccc; /* Change the background color to a grayish tone */
+    color: #888; /* Change the text color to a lighter gray */
+    cursor: not-allowed; /* Change the cursor to 'not-allowed' */
+}
